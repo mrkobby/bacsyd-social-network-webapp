@@ -1,0 +1,3 @@
+<div id="loader-starter" style="display: none;opacity: .8;position: fixed;font-size: 12px;color: #fff;top: 0px;left: 0px;background: rgba(0, 0, 0, 0.98);width: 100%;height: 100%;z-index: 99999;line-height: 500px;text-align: center;">
+	Loading...
+</div>

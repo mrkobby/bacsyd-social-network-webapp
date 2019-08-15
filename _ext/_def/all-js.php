@@ -1,0 +1,13 @@
+<script src="_ast/_js/_query.js"></script>
+<script src="_ast/_js/_query.ui.js"></script>
+<script src="_ast/_js/_strap.js"></script>
+<script src="_ast/_js/_app.js"></script>
+<script src="_ast/_js/_dem.js"></script>
+<script src="_ast/_js/_scroll.js"></script>
+<script src="_ast/_js/_nscroll.js"></script>
+<script src="_ast/_js/_script.js"></script>
+<script src="_ast/_js/_ajax.js"></script>
+<script src="_ast/_js/_main.js"></script>
+<script src="_ast/_js/_autoscroll.js"></script>
+<script src="_ast/_js/_dialog.js"></script>
+<?php include_once("_ext/_def/all-requests.php");?>

@@ -1,0 +1,21 @@
+IndexIgnore *
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^_sys/([^\.]+)$ _sys/$1.php [NC,L]
+RewriteRule ^admin/([^\.]+)$ admin/$1.php [NC,L]
+
+RewriteRule ^home&([0-9a-zA-Z]+) home.php?u=$1 [NC,L]
+RewriteRule ^uid&([0-9a-zA-Z]+) uid.php?u=$1 [NC,L]
+RewriteRule ^alerts&([0-9a-zA-Z]+) alerts.php?u=$1 [NC,L]
+RewriteRule ^explore&([0-9a-zA-Z]+) explore.php?u=$1 [NC,L]
+RewriteRule ^lock&([0-9a-zA-Z]+) lock.php?u=$1 [NC,L]
+RewriteRule ^secure&([0-9a-zA-Z]+) secure.php?u=$1 [NC,L]
+RewriteRule ^chat&([0-9a-zA-Z]+) chat.php?u=$1 [NC,L]
+RewriteRule ^photos&([0-9a-zA-Z]+) photos.php?u=$1 [NC,L]
+RewriteRule ^discover&([0-9a-zA-Z]+) discover.php?u=$1 [NC,L]
+RewriteRule ^activation&([0-9a-zA-Z]+) activation.php?u=$1 [NC,L]
+
+ErrorDocument 404 http://localhost/bacsyd/_temp/404
+
+ErrorDocument 403 http://localhost/bacsyd/_temp/403
